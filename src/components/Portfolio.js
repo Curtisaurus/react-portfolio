@@ -2,6 +2,6 @@ import React from 'react';
 
 export default function Portfolio() {
   return (
-    <div></div>
+    <div><h1>Portfolio</h1></div>
   )
 }
