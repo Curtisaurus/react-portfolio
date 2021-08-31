@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default function Navigation() {
+export default function Navigation(props) {
   return (
-    <nav></nav>
+    <nav>{props.content}</nav>
   )
 }
