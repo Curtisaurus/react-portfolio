@@ -12,10 +12,6 @@ code {
     monospace;
 }
 
-.nav-item {
-  list-style: none;
-}
-
-.nav-item:hover {
+.nav-link:hover {
   cursor: pointer;
 }
