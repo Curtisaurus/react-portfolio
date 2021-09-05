@@ -54,3 +54,8 @@ main {
   color: gray;
   pointer-events: none;
 }
+
+.selfie {
+  max-width: 20vw;
+  max-height: 20vh;
+}
