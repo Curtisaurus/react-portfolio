@@ -26,7 +26,6 @@ ul {
   padding: 0 1em 0 1em;
   justify-content: space-between;
   align-items: baseline;
-  flex-wrap: wrap;
 }
 
 .nav-list {
@@ -50,7 +49,7 @@ main {
 .nav-item {
   font-weight: 400;
   color: black;
-  margin: 0 1em 0 1em;
+  margin: 0 1em 0 0;
 }
 
 .disabled {
@@ -63,6 +62,10 @@ main {
   max-height: 30vh;
 }
 
+.project-img {
+  max-width: 20vh;
+}
+
 @media screen and (max-width: 640px) {
   .nav-item {
     font-size: 0.9em;
@@ -70,6 +73,7 @@ main {
 
   .header {
     display: block;
+    flex-direction: column;
   }
 
   .nav-list {
@@ -79,5 +83,15 @@ main {
   
   main {
     margin-top: 7em;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .header {
+    position: relative;
+  }
+
+  main {
+    margin-top: 1em;
   }
 }
