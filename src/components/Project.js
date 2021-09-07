@@ -2,11 +2,14 @@ import React from 'react';
 
 export default function Project(props) {
   return (
-    <div className="project-Card">
+    <div className="project-card">
       <h3>{props.name}</h3>
       <img className="project-img" src={props.imageUrl} alt={props.name}></img>
-      <a href={props.github}>GitHub</a>
-      <a href={props.livelink}>Live App</a>
+      <p>{props.description}</p>
+      <div className="project-links">
+        <a href={props.github}>GitHub</a>
+        <a href={props.livelink}>Live App</a>
+      </div>
     </div>
   )
 }
